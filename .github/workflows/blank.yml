@@ -14,7 +14,7 @@ on:
       - v*
 
 env:
-  IMAGE_NAME: reasno/nginx-ingress
+  IMAGE_NAME: reasno/nginx-ingress-controller
 
 jobs:
   # Push image to GitHub Packages.
