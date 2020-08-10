@@ -1,2 +1,2 @@
-ARG VERSION=master
+ARG VERSION=latest
 FROM us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller:$VERSION
