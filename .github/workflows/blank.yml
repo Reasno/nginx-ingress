@@ -34,7 +34,6 @@ jobs:
           # Use Docker `latest` tag convention
           [ "$VERSION" == "master" ] && VERSION=0.34.1
           
-          echo VERSION=$VERSION
           docker build . --file Dockerfile --tag $IMAGE_NAME --build-arg version=$VERSION
 
       - name: Log into registry
