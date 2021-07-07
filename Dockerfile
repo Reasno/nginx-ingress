@@ -1,2 +1,2 @@
 ARG VERSION=latest
-FROM us.gcr.io/k8s-artifacts-prod/ingress-nginx/controller:$VERSION
+FROM k8s.gcr.io/ingress-nginx/controller:$VERSION
